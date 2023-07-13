@@ -3,6 +3,7 @@
 <head th:replace="partials/head :: head(title='Nerd Wiki - Home')"></head>
 <body>
     <div class="page-wrapper index-page">
+        <nav th:replace="partials/nav :: nav"></nav>
         <div class="container header-container">
             <div class="row header-row">
                 <div class="column header-column">
@@ -11,19 +12,6 @@
                     </div>
                     <div class="header-description">
                         <p>Your one-stop shop for all game, movie, and book wiki's</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="container body-container">
-            <div class="row body-row">
-                <div class="column body-column">
-                    <div class="link-list">
-                        <ul>
-                            <li><a href="/games">Games</a></li>
-                            <li><a href="/movies">Movies</a></li>
-                            <li><a href="/books">Books</a></li>
-                        </ul>
                     </div>
                 </div>
             </div>

@@ -1,0 +1,46 @@
+/*#########################################################*/
+/*###################### SITE STYLING ######################*/
+/*#########################################################*/
+
+body {
+    background-color: #D0FCB3;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*#########################################################*/
+/*###################### NAV STYLING ######################*/
+/*#########################################################*/
+
+.nav-container {
+    background-color: #96E8BC;
+    padding: 0 20px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.nav-logo {
+    height: 75px;
+}
+
+.nav-col {
+    justify-content: center;
+}
+
+.nav-col ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.nav-col ul li {
+    list-style-type: none;
+    padding: 0 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
