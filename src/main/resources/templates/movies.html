@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head th:replace="partials/head :: head(title='Nerd Wiki - Movies')"></head>
+<body>
+<div class="page-wrapper books-wrapper">
+    <nav th:replace="partials/nav :: nav"></nav>
+    <header class="container">
+        <div class="row">
+            <div class="column">
+                <div class="movies-header">
+                    <h1>Movies</h1>
+                </div>
+                <div class="movies-description">
+                    <p>Here you can find all the information you need about your favorite movies!</p>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div class="row">
+            <div class="column">
+                <ul>
+                    <li>
+                        <a href="/movies/harry-potter">Harry Potter</a>
+                    </li>
+                    <li>
+                        <a href="/movies/lord-of-the-rings">Lord of the Rings</a>
+                    </li>
+                    <li>
+                        <a href="/movies/the-hobbit">The Hobbit</a>
+                    </li>
+                    <li>
+                        <a href="/movies/got">Game of Thrones</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
