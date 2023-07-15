@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head th:replace="partials/head :: head(title='Nerd Wiki - Books')"></head>
+<body>
+    <div class="page-wrapper books-wrapper">
+        <nav th:replace="partials/nav :: nav"></nav>
+        <header class="container">
+            <div class="row">
+                <div class="column">
+                    <div class="books-header">
+                        <h1>Books</h1>
+                    </div>
+                    <div class="books-description">
+                        <p>Here you can find all the information you need about your favorite books!</p>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="container">
+            <div class="row">
+                <div class="column">
+                    <ul>
+                        <li>
+                            <a href="/books/harry-potter">Harry Potter</a>
+                        </li>
+                        <li>
+                            <a href="/books/lord-of-the-rings">Lord of the Rings</a>
+                        </li>
+                        <li>
+                            <a href="/books/the-hobbit">The Hobbit</a>
+                        </li>
+                        <li>
+                            <a href="/books/got">Game of Thrones</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
