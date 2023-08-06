@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head th:replace="partials/head :: head(title='Nerd Wiki - Games')"></head>
+<body>
+    <div class="page-wrapper">
+        <nav th:replace="partials/nav :: nav"></nav>
+        <div class="container">
+            <div class="row">
+                <div class="column">
+                    <ul>
+                        <li>
+                            <a href="/games/harry-potter">Harry Potter</a>
+                        </li>
+                        <li>
+                            <a href="/games/lord-of-the-rings">Lord of the Rings</a>
+                        </li>
+                        <li>
+                            <a href="/games/the-hobbit">The Hobbit</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
